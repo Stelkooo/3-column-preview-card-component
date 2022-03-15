@@ -388,16 +388,23 @@ main {
   align-items: center;
 }
 
+.suv,
+.luxury {
+  position: relative;
+}
+
 .sedan {
   background-color: #e38826;
 }
 
 .suv {
   background-color: #006970;
+  bottom: 0.7em;
 }
 
 .luxury {
   background-color: #004241;
+  bottom: 1.4em;
 }
 
 .card {

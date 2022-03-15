@@ -1,13 +1,20 @@
 @use "../abstracts/variables" as *;
 
+.suv,
+.luxury {
+    position: relative;
+}
+
 .sedan {
     background-color: $bright-orange;
 }
 .suv {
     background-color: $dark-cyan;
+    bottom: 0.7em;
 }
 .luxury {
-    background-color: $very-dark-cyan;
+    background-color: $very-dark-cyan;   
+    bottom: 1.4em;
 }
 .card {
     padding: 48px;
