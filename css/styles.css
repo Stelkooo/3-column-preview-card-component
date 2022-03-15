@@ -356,4 +356,35 @@ main {
   align-items: center;
 }
 
+.sedan {
+  background-color: #e38826;
+}
+
+.suv {
+  background-color: #006970;
+}
+
+.luxury {
+  background-color: #004241;
+}
+
+.card {
+  padding: 3em;
+  border-radius: 8px;
+}
+
+.card-heading {
+  margin: 1.1em 0 0.8em;
+}
+
+.card-desc {
+  margin-bottom: 2.25em;
+}
+
+.card-btn {
+  padding: 0.7em 2em;
+  background-color: #f2f2f2;
+  border-radius: 25px;
+}
+
 /*# sourceMappingURL=styles.css.map */

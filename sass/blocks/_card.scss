@@ -1,0 +1,26 @@
+@use "../abstracts/variables" as *;
+
+.sedan {
+    background-color: $bright-orange;
+}
+.suv {
+    background-color: $dark-cyan;
+}
+.luxury {
+    background-color: $very-dark-cyan;
+}
+.card {
+    padding: 3em;
+    border-radius: 8px;
+    &-heading {
+        margin: 1.1em 0 0.8em;
+    }
+    &-desc {
+        margin-bottom: 2.25em;
+    }
+    &-btn {
+        padding: 0.7em 2em;
+        background-color: $very-light-gray;
+        border-radius: 25px;
+    }
+}
