@@ -10,16 +10,16 @@
     background-color: $very-dark-cyan;
 }
 .card {
-    padding: 3em;
+    padding: 48px;
     border-radius: 8px;
     &-heading {
-        margin: 1.1em 0 0.8em;
+        margin: 35px 0 25px;
     }
     &-desc {
-        margin-bottom: 2.25em;
+        margin-bottom: 36px;
     }
     &-btn {
-        padding: 0.7em 2em;
+        padding: 12px 32px;
         background-color: $very-light-gray;
         border-radius: 25px;
     }
