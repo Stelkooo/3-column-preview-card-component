@@ -1,0 +1,7 @@
+@use "variables" as *;
+
+@mixin desktop {
+    @media (min-width: #{map-get($map: $screen-size, $key: desktop)}) {
+        @content;
+    }
+}
