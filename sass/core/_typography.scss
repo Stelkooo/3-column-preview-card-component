@@ -1,0 +1,30 @@
+@use "../abstracts/variables" as *;
+
+.sedan > .card-btn {
+    color: $bright-orange;
+}
+.suv > .card-btn {
+    color: $dark-cyan;
+}
+.luxury > .card-btn {
+    color: $very-dark-cyan;
+}
+.card {
+    &-heading {
+        font-size: 40px;
+        font-family: $big-shoulders-display;
+        text-transform: uppercase;
+        color: $very-light-gray;
+    }
+    &-desc,
+    &-btn {
+        font-size: 15px;
+        font-family: $lexend-deca;
+    }
+    &-desc {
+        color: $transparent-white;
+    }
+    &-btn {
+        text-decoration: none;
+    }
+}

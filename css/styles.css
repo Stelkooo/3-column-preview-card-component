@@ -347,6 +347,38 @@ body {
   background-color: #f2f2f2;
 }
 
+.sedan > .card-btn {
+  color: #e38826;
+}
+
+.suv > .card-btn {
+  color: #006970;
+}
+
+.luxury > .card-btn {
+  color: #004241;
+}
+
+.card-heading {
+  font-size: 40px;
+  font-family: "Big Shoulders Display", cursive;
+  text-transform: uppercase;
+  color: #f2f2f2;
+}
+
+.card-desc, .card-btn {
+  font-size: 15px;
+  font-family: "Lexend Deca", sans-serif;
+}
+
+.card-desc {
+  color: rgba(255, 255, 255, 0.75);
+}
+
+.card-btn {
+  text-decoration: none;
+}
+
 main {
   margin: 0 1em;
   height: 100vh;
