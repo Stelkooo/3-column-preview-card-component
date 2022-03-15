@@ -1,5 +1,0 @@
-$font-size: 15; // Default
-
-@function em($pixels, $font-size) {
-    @return #{$pixels/$font-size}em;
-}
