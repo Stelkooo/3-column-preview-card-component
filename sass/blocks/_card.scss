@@ -1,3 +1,4 @@
+@use "../abstracts/mixins" as *;
 @use "../abstracts/variables" as *;
 
 .suv,
@@ -29,5 +30,17 @@
         padding: 12px 32px;
         background-color: $very-light-gray;
         border-radius: 25px;
+    }
+}
+@include desktop {
+    .suv,
+    .luxury {
+        bottom: 0;
+    }
+    .suv {
+        right: 0.7em;
+    }
+    .luxury {
+        right: 1.4em;
     }
 }
