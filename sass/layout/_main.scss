@@ -1,3 +1,5 @@
+@use "../abstracts/mixins" as *;
+
 main {
     margin: 0 1em;
     height: 100vh;
@@ -5,4 +7,10 @@ main {
     flex-direction: column;
     justify-content: center;
     align-items: center;
+}
+
+@include desktop {
+    main {
+        flex-direction: row;
+    }
 }
