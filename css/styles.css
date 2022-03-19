@@ -444,6 +444,14 @@ main {
   .luxury {
     right: 1.4em;
   }
+
+  .card {
+    width: 307px;
+  }
+
+  .card-desc {
+    margin-bottom: 94px;
+  }
 }
 
 /*# sourceMappingURL=styles.css.map */

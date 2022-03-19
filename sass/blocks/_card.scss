@@ -43,4 +43,10 @@
     .luxury {
         right: 1.4em;
     }
+    .card {
+        width: 307px;
+        &-desc {
+            margin-bottom: 94px;
+        }
+    }
 }
