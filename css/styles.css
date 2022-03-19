@@ -379,6 +379,13 @@ body {
   text-decoration: none;
 }
 
+@media (min-width: 1440px) {
+  .sedan > .card-btn:hover,
+.suv > .card-btn:hover,
+.luxury > .card-btn:hover {
+    color: #f2f2f2;
+  }
+}
 main {
   margin: 0 1em;
   height: 100vh;
@@ -443,6 +450,24 @@ main {
 
   .luxury {
     right: 1.4em;
+  }
+
+  .sedan > .card-btn:hover,
+.suv > .card-btn:hover,
+.luxury > .card-btn:hover {
+    border: 2px solid #f2f2f2;
+  }
+
+  .sedan > .card-btn:hover {
+    background-color: #e38826;
+  }
+
+  .suv > .card-btn:hover {
+    background-color: #006970;
+  }
+
+  .luxury > .card-btn:hover {
+    background-color: #004241;
   }
 
   .card {

@@ -43,6 +43,20 @@
     .luxury {
         right: 1.4em;
     }
+    .sedan > .card-btn:hover,
+    .suv > .card-btn:hover,
+    .luxury > .card-btn:hover {
+        border: 2px solid $very-light-gray;
+    }
+    .sedan > .card-btn:hover {
+        background-color: $bright-orange;
+    }
+    .suv > .card-btn:hover {
+        background-color: $dark-cyan;
+    }
+    .luxury > .card-btn:hover {
+        background-color: $very-dark-cyan;
+    }
     .card {
         width: 307px;
         &-desc {
